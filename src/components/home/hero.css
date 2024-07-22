@@ -1,0 +1,41 @@
+.hero-banner {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  align-items: baseline;
+  justify-content: flex-end;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://images3.alphacoders.com/949/thumb-1920-949023.jpg);
+}
+.hero-content-container {
+  display: flex;
+  flex-direction: column;
+  align-self: baseline;
+  padding: 5%;
+  gap: 1em;
+}
+.hero-title {
+  margin: 0px;
+  font-size: 46px;
+}
+.hero-cast {
+  font-size: 22px;
+  font-weight: bold;
+}
+.modal-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 95%;
+  max-width: 95%;
+  background-color: #212728;
+  padding: 1em;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
